@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  font-size: 2em;
+  margin: 0.25em 0;
+}
+
+.joke-item {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: scale 0.3s;
+}
+
+.joke-item:hover {
+  background-color: #f9f9f9;
+  scale: 1.01;
+}
